@@ -1,0 +1,29 @@
+#registrar, #buscar, #modificar{
+    border: 2px dashed brown;
+    margin:10px;
+}
+.auto{
+    background-color: antiquewhite;
+    margin: 20px;
+    padding: 10px;
+}
+.auto:hover{
+    border: 2px solid skyblue;
+}
+
+#mensaje-eliminado{
+    visibility: hidden;
+    color:brown;
+}
+
+#mensaje-registrado{
+    visibility: hidden;
+    color:green;
+}
+
+#mensaje-no-encontrado{
+    visibility: hidden;
+    color:red;
+}
+
+

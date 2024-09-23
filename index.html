@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" type="text/css"/>
+    <script type="module" src="main.js"></script>
+</head>
+<body>
+    <div id="registrar">
+        <h2>Registrá un nuevo auto</h2>
+        <p>Marca:</p>
+        <input id="registrar-marca" placeholder="Ej: Ford">
+        <p>Color:</p>
+        <input id="registrar-color" placeholder="Ej: Negro">
+        <p>Precio:</p>
+        <input id="registrar-precio" placeholder="Ej: 23000">
+        <p>Fecha:</p>
+        <input type="date" id="registrar-fecha">
+        <button id="btn-registrar">Registrar</button>
+        <p id="mensaje-registrado">Auto Registrado</p>
+    </div>
+    <div id="buscar">
+        <h2>Buscar autos</h2>
+        <p>Marca:</p>
+        <input id="input-marca" placeholder="Ej: Honda" />
+        <p>Color:</p>
+        <input id="input-color" placeholder="Ej: Amarillo"/>
+        <button id="btn-buscar">Buscar</button>
+        <button id="btn-eliminar">Eliminar</button>
+        <button id="btn-listar-todos">Listar todos</button>
+        <button id="btn-modificar">Modificar</button>
+        <p id="mensaje-eliminado">El auto ha sido eliminado</p>
+        <p id="mensaje-no-encontrado">No se encontró el auto</p>
+    </div>
+    <div id="resultado-busqueda">
+        
+    </div>
+    <div id="modificar">
+        <h2>Modificar auto</h2>
+        <p>Marca</p>
+        <input id="modificar-marca" placeholder="Ej:Acura"/>
+        <p>Color</p>
+        <input id="modificar-color" placeholder="Ej:Verde"/>
+        <p>Precio</p>
+        <input id="modificar-precio" placeholder="Ej:12000"/>
+        <p>Fecha</p>
+        <input type="date" id="registrar-fecha">
+        <button id="btn-modificar">Modificar</button>
+    </div>
+</body>
+</html>
